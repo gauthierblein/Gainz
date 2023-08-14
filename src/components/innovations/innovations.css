@@ -1,0 +1,49 @@
+.innovations-container {
+    height: auto;
+    padding: 2% 5%;
+    background-image: url('../../assets//img/png-tree-background.jpg');
+}
+
+.innovations-container h2 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    color: var(--color-three);
+    width: 130px;
+    border-bottom: 4px solid indigo;
+}
+
+.innovations-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--color-three);
+    margin-bottom: 50px;
+}
+
+.innovations-text {
+    width: 50%;
+    padding: 2%;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+.innovations-text:hover {
+    opacity: 1;
+    transition: .3s ease-in;
+}
+
+.innovations-text h3 {
+    font-size: 26px;
+}
+
+.innovations-img {
+    width:25vw;
+    height: 25vw;
+    border-radius: 50%;
+}
+.innovations-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}

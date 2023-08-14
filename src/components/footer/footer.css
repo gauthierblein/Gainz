@@ -1,0 +1,38 @@
+.footer-container {
+    height: 30vh;
+    background: rgb(20, 19, 20);
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+    color: var(--color-three);
+}
+
+.footer-zone {
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.footer-zone h5 {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.footer-logo {
+    font-family: Grizzly, Verdana, sans-serif;
+}
+
+.footer-copyright {
+    font-size: 12px;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    height: 50px;
+
+}

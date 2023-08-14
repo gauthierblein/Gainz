@@ -1,0 +1,123 @@
+.earn-container {
+    height: auto;
+    background: radial-gradient(circle, rgba(216,195,238,1) 0%, rgba(224,237,223,1) 100%);
+    padding: 2% 5%;
+    gap: 3rem;
+}
+
+.earn-container h2 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.earn-container h2 span:nth-of-type(1) {
+    font-size: 38px;
+}
+.earn-container h2 span:nth-of-type(2) {
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #0e6842, #af4261);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.earn-possibilities {
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 1%;
+}
+
+.earn-section {
+    width: 27%;
+    padding:  1% 2%;
+    display: flex;
+    flex-direction: column;
+    opacity: .85;
+    border-radius: 10px;
+    background-color: rgb(66, 64, 64);
+    color: var(--color-three);
+}
+.earn-section:hover {
+    opacity: 1;
+    transform: scale(1.06);
+    border: 2px solid ;
+    border-radius: 10px;
+    transition: .4s ease-in-out;
+    background-image: linear-gradient(45deg, #0e6842, #af4261);
+}
+
+.earn-section-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Tektur', cursive;
+    font-size: 22px;
+    gap: 1rem;
+}
+
+.earn-section-img {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.earn-section-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.earn-section p {
+    margin-bottom: 5px;
+}
+
+.earn-section p {
+    margin-bottom: 5px;
+}
+
+.earn-section-btn {
+    text-decoration: none;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.earn-section-btn button {
+    text-decoration: none;
+    padding: 2% 6%;
+    border : 2px solid var(--color-three);
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: var(--color-three);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.earn-section-btn button:hover {
+    cursor: pointer;
+    background: var(--color-three);
+    border : 2px solid rgb(36, 36, 36);
+    color: var(--color-two);
+    transition: .3s ease-in-out;
+}
+
+.earn-section-stake {
+    border: solid 1px var(--color-three);
+    background-color: rgb(65, 63, 63);
+    border-radius: 10px;
+    padding: 5%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-three);
+}
+
+.earn-section-stake h4, .earn-section-stake p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+}

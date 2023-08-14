@@ -1,13 +1,44 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Tektur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+@font-face {
+  font-family: "Grizzly";
+  src: url(assets/Grizzly\ Attack\ -\ PERSONAL\ USE.ttf);
+}
+
+/* KEYFRAMES AND ANIMATION */
+
+
+/* GLOBAL STYLE */
 body {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  padding: 0;
+  max-width: 100vw;
+  font-family: 'Inter', sans-serif, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --color-one: #d63131;
+  --color-two: rgb(5, 0, 10);
+  --color-three : rgb(236, 238, 245);
+  --color-four: rgb(52, 243, 233);
+  --color-five: rgb(223, 107, 247);
+  --color-six: rgb(245, 124, 87);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.span-color4 {
+  color: var(--color-four);
+}
+.span-color5 {
+  color: var(--color-five);
+}
+.span-color6 {
+  color: var(--color-six);
 }

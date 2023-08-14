@@ -1,0 +1,71 @@
+.roadmap-container {
+    height: 225vh;
+    padding: 2% 5%;
+    background: radial-gradient(circle, rgb(15, 3, 27) 0%, rgb(8, 8, 8) 100%);
+    position: relative;
+}
+
+.roadmap-container h2 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    color: var(--color-three);
+    width: 130px;
+    border-bottom: 4px solid lightseagreen;
+}
+
+.roadmap-timeline {
+    width: 1px;
+    height: 87%;
+    position: absolute;
+    bottom: 10px; left: 212px;
+    background-color: beige;
+}
+
+.roadmap-steps {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    align-items:baseline;
+    justify-content: space-between;
+    color: var(--color-three);
+    margin-bottom: 50px;
+    position: absolute;
+    top: 150px; left: 200px;
+    z-index: 5 ;
+}
+
+.roadmap-step {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.roadmap-description, .roadmap-description-done {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    padding: 2% 4%;
+    background-color: rgb(51, 50, 50);
+    border: solid 2px gray;
+    border-radius: 10px;
+    width: 500px;
+    height: 100px;
+}
+.roadmap-description-done {
+    border: solid 2px lightseagreen;
+
+}
+
+.roadmap-description h4, .roadmap-description-done h4 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 900;
+}
+.roadmap-description p, .roadmap-description-done p {
+    margin: 0;
+    font-size: 16px;
+    text-align: justify;
+}
